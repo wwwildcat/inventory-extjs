@@ -14,6 +14,7 @@ Ext.define('InventoryApp.view.login.LoginController', {
 			});
 		} else {
 			Ext.Msg.alert({
+				title: 'Ошибка',
 				message: 'Неверный логин или пароль',
 			});
 			username.reset();

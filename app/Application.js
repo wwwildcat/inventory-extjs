@@ -24,6 +24,7 @@ Ext.define('InventoryApp.Application', {
         // TODO: add global / shared stores here
     ],
 
+    //entry point
     launch: function () {
         Ext.create({
             xtype: 'login'
